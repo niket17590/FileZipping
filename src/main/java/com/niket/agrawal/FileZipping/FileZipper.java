@@ -1,11 +1,11 @@
 package com.niket.agrawal.FileZipping;
 
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NonNull;
 
 @Builder(setterPrefix = "set")
-@Data
+@Getter
 public class FileZipper {
 
 	@NonNull
